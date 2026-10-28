@@ -1,0 +1,747 @@
+{
+  "started_at": "2026-10-28T21:36:05.595380+00:00",
+  "duplicates_removed": 51,
+  "excluded": 1174,
+  "pages_requested": 41,
+  "searches": [
+    {
+      "country": "FI",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "internship",
+      "pages": 1,
+      "returned": 7,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "internship",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "intern",
+      "pages": 22,
+      "returned": 1100,
+      "duplicates": 29,
+      "excluded": 784,
+      "status": "limit_reached"
+    },
+    {
+      "country": "DE",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "intern",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "trainee",
+      "pages": 1,
+      "returned": 47,
+      "duplicates": 0,
+      "excluded": 1,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "trainee",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "graduate",
+      "pages": 1,
+      "returned": 12,
+      "duplicates": 3,
+      "excluded": 1,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "graduate",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "junior",
+      "pages": 6,
+      "returned": 265,
+      "duplicates": 13,
+      "excluded": 103,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "junior",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "strategy",
+      "pages": 2,
+      "returned": 68,
+      "duplicates": 0,
+      "excluded": 67,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "strategy",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "consulting",
+      "pages": 2,
+      "returned": 53,
+      "duplicates": 1,
+      "excluded": 42,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "consulting",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "sustainability",
+      "pages": 1,
+      "returned": 13,
+      "duplicates": 0,
+      "excluded": 11,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "sustainability",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "business analyst",
+      "pages": 2,
+      "returned": 54,
+      "duplicates": 0,
+      "excluded": 49,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "business analyst",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FI",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "PT",
+      "keyword": "business development",
+      "pages": 3,
+      "returned": 124,
+      "duplicates": 5,
+      "excluded": 116,
+      "status": "complete"
+    },
+    {
+      "country": "DE",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "NL",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "SE",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "DK",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "BE",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    },
+    {
+      "country": "FR",
+      "keyword": "business development",
+      "pages": 0,
+      "returned": 0,
+      "duplicates": 0,
+      "excluded": 0,
+      "status": "country_unavailable"
+    }
+  ],
+  "errors": [],
+  "stop_reason": "limit_reached",
+  "available_countries": [
+    "AO",
+    "BR",
+    "PT"
+  ],
+  "by_country": {
+    "FI": 0,
+    "PT": 500,
+    "DE": 0,
+    "NL": 0,
+    "SE": 0,
+    "DK": 0,
+    "BE": 0,
+    "FR": 0
+  },
+  "collected": 500,
+  "finished_at": "2026-10-28T21:38:31.745379+00:00"
+}

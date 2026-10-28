@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-10-28T21:50:14.123169+00:00",
+  "source": "https://www.arbeitnow.com/api/job-board-api",
+  "rule": "Internship/graduate/trainee title or job-type signal, or junior/entry-level/working-student signal plus business topic in title/tags. Senior titles excluded. Descriptions alone never establish eligibility. okemprego additionally uses its explicit experience level and Portuguese internship title terms.",
+  "attribution": {
+    "site": "https://www.arbeitnow.com",
+    "terms": "https://www.arbeitnow.com/terms",
+    "requirement": "Link back to Arbeitnow.com on your platform (API terms section 11)."
+  },
+  "mode": "saved_response",
+  "pages": [
+    {
+      "page": 1,
+      "returned": 300,
+      "rate_limit_headers": {},
+      "meta": {
+        "current_page": 1,
+        "current_page_url": "https://www.arbeitnow.com/api/job-board-api?page=1",
+        "from": 1,
+        "path": "https://www.arbeitnow.com/api/job-board-api",
+        "per_page": 300,
+        "to": 300,
+        "terms": "This is a free public API for jobs, please do not abuse. I would appreciate linking back to the site. By using the API, you agree to the terms of service present on Arbeitnow.com",
+        "info": "Jobs are updated every hour and order by the `created_at` timestamp. Use `?page=` to paginate. Read more information here: https://www.arbeitnow.com/blog/job-board-api"
+      },
+      "links": {
+        "first": "https://www.arbeitnow.com/api/job-board-api?page=1",
+        "last": null,
+        "prev": null,
+        "next": "https://www.arbeitnow.com/api/job-board-api?page=2"
+      }
+    }
+  ],
+  "returned": 300,
+  "error": null,
+  "stop_reason": "saved_single_page",
+  "country_policy": "Country remains blank: API has no structured country field.",
+  "saved_response_sha256": "57ab1666af4c1ac615ac783be4b88891685835da5c8f598b8d02df02adef3fff",
+  "eligible_before_dedup": 41,
+  "collected": 41,
+  "duplicates_removed": 0,
+  "exclusions": {
+    "no_target_early_career_evidence": 172,
+    "senior_title": 87
+  },
+  "by_country": {
+    "unknown": 41
+  },
+  "status": "success"
+}

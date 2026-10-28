@@ -1,0 +1,605 @@
+{
+  "analyzed_at": "2026-10-28T21:45:10.280017+00:00",
+  "source": "https://www.arbeitnow.com/api/job-board-api",
+  "sample": {
+    "pages": 1,
+    "unique_listings": 300,
+    "duplicates_removed": 0,
+    "exhaustive": false
+  },
+  "fields": {
+    "company_name": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "str"
+      ]
+    },
+    "created_at": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "int"
+      ]
+    },
+    "description": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "str"
+      ]
+    },
+    "job_types": {
+      "present": 300,
+      "missing_or_empty": 59,
+      "types": [
+        "list"
+      ]
+    },
+    "location": {
+      "present": 300,
+      "missing_or_empty": 13,
+      "types": [
+        "str"
+      ]
+    },
+    "remote": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "bool"
+      ]
+    },
+    "slug": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "str"
+      ]
+    },
+    "tags": {
+      "present": 300,
+      "missing_or_empty": 17,
+      "types": [
+        "list"
+      ]
+    },
+    "title": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "str"
+      ]
+    },
+    "url": {
+      "present": 300,
+      "missing_or_empty": 0,
+      "types": [
+        "str"
+      ]
+    }
+  },
+  "field_notes": {
+    "description": "HTML, sometimes HTML-escaped",
+    "created_at": "Numeric Unix timestamp in the observed sample",
+    "slug": "Available job identifier",
+    "tags": "Topic labels, not guaranteed required skills",
+    "job_types": "Mixed languages and seniority/contract labels; sometimes empty",
+    "remote": "Boolean; does not specify permitted remote countries"
+  },
+  "pagination_observed": [
+    {
+      "links": {
+        "first": "https://www.arbeitnow.com/api/job-board-api?page=1",
+        "last": null,
+        "prev": null,
+        "next": "https://www.arbeitnow.com/api/job-board-api?page=2"
+      },
+      "meta": {
+        "current_page": 1,
+        "current_page_url": "https://www.arbeitnow.com/api/job-board-api?page=1",
+        "from": 1,
+        "path": "https://www.arbeitnow.com/api/job-board-api",
+        "per_page": 300,
+        "to": 300,
+        "terms": "This is a free public API for jobs, please do not abuse. I would appreciate linking back to the site. By using the API, you agree to the terms of service present on Arbeitnow.com",
+        "info": "Jobs are updated every hour and order by the `created_at` timestamp. Use `?page=` to paginate. Read more information here: https://www.arbeitnow.com/blog/job-board-api"
+      }
+    }
+  ],
+  "relevance": {
+    "appears_relevant": 41,
+    "relevant_with_business_topic_in_title_or_tags": 25,
+    "junior_business_roles": 9,
+    "early_career_signal_counts_overlapping": {
+      "internships": 31,
+      "graduate_programs": 0,
+      "trainee_positions": 0,
+      "junior": 18,
+      "working_students": 16
+    },
+    "topic_counts_in_title_or_tags_overlapping": {
+      "consulting": 22,
+      "strategy": 5,
+      "sustainability": 0,
+      "finance": 15,
+      "business_development": 7,
+      "international_business": 0,
+      "other_business": 83
+    },
+    "senior_title_topic_matches_excluded": 35,
+    "rule": "Internship/graduate/trainee title or job_type signal, or junior/working-student signal plus business topic in title/tags; senior titles excluded. Description mentions alone do not establish eligibility."
+  },
+  "geography": {
+    "structured_country_field_present": false,
+    "inferred_location_counts": {
+      "CH": 48,
+      "DE": 81,
+      "FR": 48,
+      "GB": 44,
+      "IE": 1,
+      "NL": 45
+    },
+    "target_countries": {
+      "FI": {
+        "sample_location_matches": 0,
+        "status": "not_observed_in_sample"
+      },
+      "SE": {
+        "sample_location_matches": 0,
+        "status": "not_observed_in_sample"
+      },
+      "DK": {
+        "sample_location_matches": 0,
+        "status": "not_observed_in_sample"
+      },
+      "DE": {
+        "sample_location_matches": 81,
+        "status": "observed_in_location"
+      },
+      "NL": {
+        "sample_location_matches": 45,
+        "status": "observed_in_location"
+      },
+      "BE": {
+        "sample_location_matches": 0,
+        "status": "not_observed_in_sample"
+      },
+      "FR": {
+        "sample_location_matches": 48,
+        "status": "observed_in_location"
+      }
+    },
+    "evidence_counts": {
+      "city_clue_in_location": 186,
+      "unknown": 34,
+      "country_name_in_location": 80
+    },
+    "unknown_country_count": 34,
+    "unknown_location_examples": {
+      "(missing)": 13,
+      "Remote": 2,
+      "Wardenburg": 2,
+      "Homeoffice": 1,
+      "Nordhausen": 1,
+      "Cuxhaven": 1,
+      "Weßling": 1,
+      "Aichach": 1,
+      "Winterbach": 1,
+      "Nohra": 1,
+      "Badenweiler": 1,
+      "Giebelstadt": 1
+    },
+    "method": "Location only: explicit country names first, then a limited city dictionary. Inferences are not API country fields. Remote does not establish eligibility in any country; counts may overlap for multi-country locations."
+  },
+  "topic_examples_not_necessarily_early_career": {
+    "consulting": [
+      {
+        "title": "Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",
+        "company": "Kevin Kehr",
+        "location": "Homeoffice",
+        "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-137491",
+        "appears_early_career_relevant": true
+      },
+      {
+        "title": "Manager (m/w/d) Einkaufsberatung",
+        "company": "ProcuVia AG",
+        "location": "Düsseldorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/procuvia-ag/manager-einkaufsberatung-dusseldorf-145797",
+        "appears_early_career_relevant": false
+      }
+    ],
+    "strategy": [
+      {
+        "title": "Senior Manager Strategy & Transformation (m/w/d)",
+        "company": "CURRENTA GRUPPE",
+        "location": "Leverkusen, Nordrhein-Westfalen, Deutschland",
+        "url": "https://www.arbeitnow.com/jobs/companies/currenta-gruppe/senior-manager-strategy-transformation-leverkusen-277911",
+        "appears_early_career_relevant": false
+      },
+      {
+        "title": "Deployment Strategist",
+        "company": "Parallel",
+        "location": "Paris",
+        "url": "https://www.arbeitnow.fr/jobs/companies/parallel/deployment-strategist-paris-255278",
+        "appears_early_career_relevant": false
+      }
+    ],
+    "sustainability": [],
+    "finance": [
+      {
+        "title": "Payments and Reconciliations Intern (f/m/d)",
+        "company": "Upvest",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/upvest/payments-and-reconciliations-intern-berlin-196796",
+        "appears_early_career_relevant": true
+      },
+      {
+        "title": "Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",
+        "company": "Kevin Kehr",
+        "location": "Homeoffice",
+        "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-137491",
+        "appears_early_career_relevant": true
+      }
+    ],
+    "business_development": [
+      {
+        "title": "Partnerships Manager",
+        "company": "BIA Hubs // HelloCircle",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/bia-hubs-hellocircle/partnerships-manager-berlin-19509",
+        "appears_early_career_relevant": false
+      },
+      {
+        "title": "Business Development & AI Sales Operations – Praktikant*in (w/m/d)",
+        "company": "SPARRKS",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/sparrks/business-development-ai-sales-operations-praktikantin-berlin-77024",
+        "appears_early_career_relevant": true
+      }
+    ],
+    "international_business": [],
+    "other_business": [
+      {
+        "title": "GTM Manager",
+        "company": "Kuro Technology",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/kuro-technology/gtm-manager-berlin-485915",
+        "appears_early_career_relevant": false
+      },
+      {
+        "title": "Founding Key Account Manager",
+        "company": "Kuro Technology",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/kuro-technology/founding-key-account-manager-berlin-413723",
+        "appears_early_career_relevant": false
+      }
+    ]
+  },
+  "relevant_examples": [
+    {
+      "title": "Payments and Reconciliations Intern (f/m/d)",
+      "company": "Upvest",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/upvest/payments-and-reconciliations-intern-berlin-196796",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "finance",
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "finance",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",
+      "company": "Kevin Kehr",
+      "location": "Homeoffice",
+      "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-137491",
+      "early_career_signals": [
+        "junior",
+        "working_students"
+      ],
+      "business_topics": [
+        "consulting",
+        "finance"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "finance"
+      ],
+      "inferred_countries": [],
+      "country_evidence": "unknown"
+    },
+    {
+      "title": "Praktkant*in Brand & Product Marketing (m/w/d)",
+      "company": "Amperecloud GmbH",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/amperecloud-gmbh/praktkantin-brand-product-marketing-berlin-308192",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Werkstudent HR (m/w/d)",
+      "company": "Yalwa GmbH",
+      "location": "Wiesbaden",
+      "url": "https://www.arbeitnow.com/jobs/companies/yalwa-gmbh/werkstudent-hr-wiesbaden-489381",
+      "early_career_signals": [
+        "working_students"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Working Student (Werkstudent) HR Operations (m/f/d)",
+      "company": "Verve",
+      "location": "",
+      "url": "https://www.arbeitnow.com/jobs/companies/verve/working-student-werkstudent-hr-operations-272535",
+      "early_career_signals": [
+        "working_students"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "finance",
+        "other_business"
+      ],
+      "inferred_countries": [],
+      "country_evidence": "unknown"
+    },
+    {
+      "title": "Founders Associate",
+      "company": "BIA Hubs // HelloCircle",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/bia-hubs-hellocircle/founders-associate-berlin-36289",
+      "early_career_signals": [
+        "junior"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "strategy",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Working Student / Intern Finance & Operations (m/f/d)",
+      "company": "GENUINE Beauty GmbH",
+      "location": "Cologne",
+      "url": "https://www.arbeitnow.com/jobs/companies/genuine-beauty-gmbh/working-student-intern-finance-operations-cologne-414798",
+      "early_career_signals": [
+        "internships",
+        "junior",
+        "working_students"
+      ],
+      "business_topics": [
+        "finance",
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "strategy",
+        "finance",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Business Development & AI Sales Operations – Praktikant*in (w/m/d)",
+      "company": "SPARRKS",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/sparrks/business-development-ai-sales-operations-praktikantin-berlin-77024",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "business_development",
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "sustainability",
+        "business_development",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Junior Digital Marketing Manager",
+      "company": "Cyrus Digital GmbH",
+      "location": "Munich",
+      "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-digital-marketing-manager-munich-199904",
+      "early_career_signals": [
+        "junior"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "strategy",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Junior Performance Marketing Manager (m/w/d)",
+      "company": "Cyrus Digital GmbH",
+      "location": "Munich",
+      "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-performance-marketing-manager-munich-271507",
+      "early_career_signals": [
+        "junior"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "strategy",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Werkstudent Marketplace Manager (m/w/d) – Amazon, TikTok Shop & Temu",
+      "company": "AMALOCK",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/amalock/werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989",
+      "early_career_signals": [
+        "working_students"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "strategy",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Founders Associate Pflichtpraktikum (m/w/d)",
+      "company": "Clever Chocolate",
+      "location": "Berlin",
+      "url": "https://www.arbeitnow.com/jobs/companies/clever-chocolate/founders-associate-pflichtpraktikum-berlin-321135",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "business_development",
+        "other_business"
+      ],
+      "inferred_countries": [
+        "DE"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Stage - Assistant.e Media, Digital & Marketing H/F",
+      "company": "AMI PARIS",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.arbeitnow.fr/jobs/companies/ami-paris/stage-assistante-media-digital-marketing-h-f-paris-141252",
+      "early_career_signals": [
+        "internships",
+        "working_students"
+      ],
+      "business_topics": [
+        "other_business"
+      ],
+      "description_topic_mentions": [
+        "other_business"
+      ],
+      "inferred_countries": [
+        "FR"
+      ],
+      "country_evidence": "country_name_in_location"
+    },
+    {
+      "title": "Stage Data Consultant - Paris - H/F/X",
+      "company": "Artefact",
+      "location": "9th arrondissement of Paris, 75009, Paris",
+      "url": "https://www.arbeitnow.fr/jobs/companies/artefact/stage-data-consultant-paris-9th-arrondissement-of-paris-75009-paris-191276",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "consulting"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "finance"
+      ],
+      "inferred_countries": [
+        "FR"
+      ],
+      "country_evidence": "city_clue_in_location"
+    },
+    {
+      "title": "Stage Data Consultant - Paris - H/F/X",
+      "company": "Artefactlinkedin",
+      "location": "9th arrondissement of Paris, 75009, Paris",
+      "url": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/stage-data-consultant-paris-9th-arrondissement-of-paris-75009-paris-473214",
+      "early_career_signals": [
+        "internships"
+      ],
+      "business_topics": [
+        "consulting"
+      ],
+      "description_topic_mentions": [
+        "consulting",
+        "finance"
+      ],
+      "inferred_countries": [
+        "FR"
+      ],
+      "country_evidence": "city_clue_in_location"
+    }
+  ],
+  "limitations": [
+    "One or two recent pages are a time-ordered convenience sample, not a coverage estimate.",
+    "No structured required skills or experience level was observed unless shown in fields; tags are not necessarily skills.",
+    "Heuristics can miss local-language roles or misclassify ambiguous titles. Manual review is required.",
+    "No matching locations does not mean the API has no jobs in that country.",
+    "Descriptions may contain boilerplate about other locations; they are not used for country inference."
+  ],
+  "status": "success",
+  "error": null,
+  "input_mode": "local_saved_response",
+  "response_rate_limit_headers": [],
+  "usage": {
+    "documentation": "https://www.arbeitnow.com/blog/job-board-api",
+    "terms_url": "https://www.arbeitnow.com/terms",
+    "conditions": "API metadata requests no abuse. Terms section 11 requires a link back to Arbeitnow.com on your platform; service is as-is and permission can be revoked.",
+    "pacing": "At most two requests, at least five seconds apart; no automatic retries. Rate-limit window not assumed from headers.",
+    "refresh": "Observed API metadata says listings update hourly. Reuse saved samples instead of repeated exploration requests."
+  }
+}

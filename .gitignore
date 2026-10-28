@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+data/*.tmp
+
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo

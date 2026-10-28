@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-10-28T21:50:14.331476+00:00",
+  "collected_by_source": {
+    "okemprego": {
+      "input_rows": 500,
+      "eligible": 166,
+      "excluded": 334,
+      "exclusion_reasons": {
+        "no_target_early_career_evidence": 334
+      },
+      "retained_rows": 166,
+      "duplicates_removed": 0,
+      "by_country": {
+        "PT": 166
+      }
+    },
+    "arbeitnow": {
+      "input_rows": 41,
+      "eligible": 41,
+      "excluded": 0,
+      "exclusion_reasons": {},
+      "retained_rows": 41,
+      "duplicates_removed": 0,
+      "by_country": {
+        "unknown": 41
+      }
+    }
+  },
+  "total_unique": 207,
+  "by_country": {
+    "PT": 166,
+    "unknown": 41
+  },
+  "location_inferences_for_rows_without_country_not_source_facts": {
+    "DE": 12,
+    "unknown": 3,
+    "FR": 12,
+    "CH": 4,
+    "NL": 10
+  },
+  "duplicates_removed": 0,
+  "duplicate_groups": [],
+  "filtering_rule": "Internship/graduate/trainee title or job-type signal, or junior/entry-level/working-student signal plus business topic in title/tags. Senior titles excluded. Descriptions alone never establish eligibility. okemprego additionally uses its explicit experience level and Portuguese internship title terms.",
+  "attribution": {
+    "okemprego": {
+      "site": "https://www.okemprego.com",
+      "terms": "https://www.okemprego.com/pt/api",
+      "requirement": "Cite the canonical okemprego job URL when displaying a listing."
+    },
+    "arbeitnow": {
+      "site": "https://www.arbeitnow.com",
+      "terms": "https://www.arbeitnow.com/terms",
+      "requirement": "Link back to Arbeitnow.com on your platform (API terms section 11)."
+    }
+  },
+  "limitations": [
+    "Heuristic relevance is not a guarantee of eligibility; review before applying.",
+    "Arbeitnow countries, skills and experience levels are blank when unavailable.",
+    "Source-hosted URLs are retained; upstream employer URLs are unavailable.",
+    "Different URLs and rewritten descriptions can hide cross-source duplicates. No fuzzy title/company merging.",
+    "First matching record wins (okemprego first); all duplicate provenance URLs are recorded in duplicate_groups.",
+    "Source snapshots have different collection times; no new okemprego requests are made."
+  ],
+  "input_sha256": {
+    "okemprego": "708bd68c69e75e93a961f0bd34d5d3e112665dc17dd2f33d745ab8749fcfdc04",
+    "arbeitnow": "19e53d2afaa1d5dab855275ca82d90c245f4135ee05650ca59c6fe6f274330f8"
+  }
+}
