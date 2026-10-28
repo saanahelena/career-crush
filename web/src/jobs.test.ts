@@ -1,0 +1,10 @@
+import { strict as assert } from 'node:assert';
+import { test } from 'node:test';
+import { filterJobs, readSaved, safeUrl, careerType, workMode } from './jobs.ts';
+import type { Job } from './jobs.ts';
+const job = {id:'one', title:'Finance Intern',company:'Example',description:'Sustainability analysis',country:'PT',job_type:'internship',source_tags:'Finance', required_skills:'Excel'} as Job;
+const empty={query:'',country:'',career:'',category:'',mode:''};
+test('search matches title company and keywords with combined filters',()=>{for(const query of ['finance','EXAMPLE','sustainability','Excel']) assert.equal(filterJobs([job],{...empty,query}).length,1); assert.equal(filterJobs([job],{...empty,query:'unrelated'}).length,0); assert.equal(filterJobs([job],{...empty,country:'PT',career:'Internship',category:'Finance'}).length,1);assert.equal(filterJobs([job],{...empty,country:'DE'}).length,0)});
+test('unknown country and work style stay unknown',()=>{assert.equal(workMode(job),'');assert.equal(filterJobs([{...job,country:''}],{...empty,country:'unknown',mode:'unknown'}).length,1);assert.equal(careerType(job),'Internship')});
+test('saved ids survive valid storage but reject malformed values',()=>{assert.deepEqual(readSaved('["one","one","missing",4]',[job]),['one']);assert.deepEqual(readSaved('bad',[job]),[]);assert.deepEqual(readSaved('{}',[job]),[])});
+test('external links require http or https',()=>{assert.equal(safeUrl('javascript:alert(1)'),undefined);assert.equal(safeUrl('https://example.com'),'https://example.com/')});
